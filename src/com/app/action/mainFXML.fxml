@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1000.0" 
+	stylesheets="@../../../../resources/css/Main.css" 
+	xmlns="http://javafx.com/javafx/8.0.111" 
+	xmlns:fx="http://javafx.com/fxml/1" 
+	fx:controller="com.app.control.MainController">
+   <children>
+      <BorderPane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" 
+      	AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         
+         
+         <top>
+            <MenuBar prefWidth="1000.0" styleClass="Menu" BorderPane.alignment="CENTER">
+              <menus>
+              
+                <Menu fx:id="dataBaseMenu" mnemonicParsing="false" text="Data Base">
+                  <items>
+                        <MenuItem fx:id="workers" mnemonicParsing="false" 
+                        	onAction="#showAllWorkers" text="Workers" />
+                    	<MenuItem fx:id="availableAutoPartsMenuItem" mnemonicParsing="false" 
+                    		onAction="#showAvailableAutoPartsActions" 
+                    		text="Available Auto-Parts" />
+                    	<MenuItem fx:id="soldAutoPartsMenuItem" mnemonicParsing="false" 
+                    		onAction="#showSoldAutoPartsActions" text="Sold auto-parts" />
+                        <MenuItem fx:id="accounting" mnemonicParsing="false" 
+                        	onAction="#showAccounting" text="Accounting" />
+                  </items>
+                </Menu>
+                
+                
+                
+                <Menu fx:id="windowMenu" mnemonicParsing="false" text="Window">
+                	<items>
+                        <Menu fx:id="chooseLanguageMenu" mnemonicParsing="false" 
+                        	text="Choose language">
+                          <items>
+                            <MenuItem fx:id="enMenuItem" mnemonicParsing="false" 
+                            	onAction="#enLanguage" text="English" />
+                            <MenuItem fx:id="uaMenuItem" mnemonicParsing="false" 
+                              	onAction="#uaLanguage" text="Ukrainian" />
+                            <MenuItem fx:id="ruMenuItem" mnemonicParsing="false" 
+                            	onAction="#ruLanguage" text="Russian" />
+                          </items>
+                        </Menu>
+                    </items>
+                </Menu>
+                
+                <Menu fx:id="helpMenu" mnemonicParsing="false" text="Help">
+                  <items>
+                    <MenuItem fx:id="aboutMenuItem" mnemonicParsing="false" text="About" />
+                  </items>
+                </Menu>
+                
+              </menus>
+            </MenuBar>
+         </top>
+         
+         
+         
+         <left>
+            <AnchorPane fx:id="anchorPaneLeft" prefHeight="765.0" prefWidth="140.0" 
+            	visible="false" BorderPane.alignment="CENTER">
+               <children>
+                  	
+                    <GridPane AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" 
+                    		AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+	                    <columnConstraints>
+	                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="10.0" 
+	                        	minWidth="10.0" prefWidth="10.0" />
+	                        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" 
+	                        	maxWidth="120.0" minWidth="120.0" prefWidth="120.0" />
+	                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="10.0" 
+	                        	minWidth="10.0" prefWidth="10.0" />
+	                    </columnConstraints>
+                    
+                        <rowConstraints>
+		                    <RowConstraints maxHeight="243.0" minHeight="10.0" 
+		                    	prefHeight="243.0" vgrow="SOMETIMES" />
+		                    <RowConstraints maxHeight="76.0" minHeight="0.0" 
+		                    	prefHeight="30.0" vgrow="SOMETIMES" />
+                        	<RowConstraints maxHeight="76.0" minHeight="10.0" 
+                        		prefHeight="30.0" vgrow="SOMETIMES" />
+		                    <RowConstraints maxHeight="76.0" minHeight="0.0" 
+		                    	prefHeight="30.0" vgrow="SOMETIMES" />
+		                    <RowConstraints maxHeight="76.0" minHeight="10.0" 
+		                    	prefHeight="30.0" vgrow="SOMETIMES" />
+		                    <RowConstraints minHeight="10.0" prefHeight="295.0" 
+		                    	vgrow="SOMETIMES" />
+                    	</rowConstraints>
+                    
+                        <children>
+	                        <Button fx:id="sellButton" mnemonicParsing="false" 
+	                        	onAction="#showSellWindow" prefWidth="126.0" 
+	                        	text="Sell auto part" GridPane.columnIndex="1" 
+	                        	GridPane.rowIndex="1" />
+                        	<Button fx:id="addButton" mnemonicParsing="false" 
+                        		onAction="#showAddWindow" prefWidth="126.0" 
+                        		text="Add auto part" GridPane.columnIndex="1" 
+                        		GridPane.rowIndex="2" />
+	                        <Button fx:id="editButton" mnemonicParsing="false" 
+	                        	onAction="#showEditWindow" prefWidth="126.0" 
+	                        	text="Edit auto part" GridPane.columnIndex="1" 
+	                        	GridPane.rowIndex="3" />
+	                        <Button fx:id="decommissionButton" mnemonicParsing="false" 
+	                        	onAction="#showDecomissionWindow" prefWidth="126.0" 
+	                        	text="Decommission" GridPane.columnIndex="1" 
+	                        	GridPane.rowIndex="4" />
+                        
+                        
+                        <GridPane GridPane.columnIndex="1">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" 
+                            	prefWidth="100.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints maxHeight="138.0" minHeight="10.0" 
+                            	prefHeight="138.0" valignment="BOTTOM" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="118.0" minHeight="10.0" 
+                            	prefHeight="36.0" valignment="TOP" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="151.0" minHeight="10.0" 
+                            	prefHeight="69.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <Label fx:id="labelTotalPrice" text="Total price:" />
+                              <TextField fx:id="totalCostTextField" editable="false" 
+                              	prefHeight="23.0" prefWidth="120.0" GridPane.rowIndex="1" />
+                           </children>
+                        </GridPane>
+                        
+                     	</children>
+                  	</GridPane>
+               	</children>
+           	</AnchorPane>
+         </left>
+         
+         
+         
+         <center>
+            <AnchorPane fx:id="anchorPaneCenter" prefHeight="200.0" prefWidth="200.0" 
+            	BorderPane.alignment="CENTER">
+               <children>
+               
+               	  <TableView fx:id="tableViewWorkers" prefHeight="200.0" prefWidth="200.0"
+               	  	 visible="false" AnchorPane.bottomAnchor="0.0" 
+               	  	 AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" 
+               	  	 AnchorPane.topAnchor="20.0" />
+                  <TableView fx:id="tableViewAutoParts" prefHeight="711.0" prefWidth="860.0"
+                  	 visible="false" AnchorPane.bottomAnchor="0.0" 
+                  	 AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" 
+                  	 AnchorPane.topAnchor="20.0" />
+                  <TableView fx:id="tableViewSoldAutoParts" prefHeight="711.0" 
+                  	prefWidth="860.0" visible="false" AnchorPane.bottomAnchor="0.0" 
+                  	AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" 
+                  	AnchorPane.topAnchor="20.0" />
+                  <ScrollPane fx:id="scrollPaneCenter" prefHeight="200.0" prefWidth="200.0" 
+                  	style="-fx-background-color: none;" visible="false" 
+                  	AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" 
+                  	AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="20.0">
+                     <content>
+                        <AnchorPane prefHeight="663.0" prefWidth="718.0" visible="false">
+                           <children>
+                    
+                                <GridPane fx:id="centerGridPane" AnchorPane.leftAnchor="0.0" 
+                                AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="30.0">
+                                
+                                <columnConstraints>
+                                  <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" 
+                                  	minWidth="10.0" prefWidth="100.0" />
+                                  <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" 
+                                  	minWidth="10.0" prefWidth="100.0" />
+                                  <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" 
+                                  	minWidth="10.0" prefWidth="100.0" />
+                                  <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" 
+                                  	minWidth="10.0" prefWidth="100.0" />
+                                  <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" 
+                                  	minWidth="10.0" prefWidth="100.0" />
+                                  <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" 
+                                  	minWidth="10.0" prefWidth="100.0" />
+                                </columnConstraints>
+                                <rowConstraints>
+                                  <RowConstraints minHeight="10.0" prefHeight="40.0" 
+                                  	vgrow="SOMETIMES" />
+                                </rowConstraints>
+                                 <children>
+                                 	<ComboBox fx:id="comboBoxName" prefWidth="150.0" />
+                                    <ComboBox fx:id="comboBoxOfManufacturer" disable="true" 
+                                    	prefWidth="150.0" GridPane.columnIndex="1" />
+                                    <ComboBox fx:id="comboBoxOfPrice" disable="true" 
+                                    	prefWidth="150.0" GridPane.columnIndex="2" />
+                                    <ComboBox fx:id="comboBoxOfDescription" disable="true" 
+                                    	prefWidth="150.0" GridPane.columnIndex="3" />
+                                    <ComboBox fx:id="comboBoxOfQuantity" disable="true" 
+                                    	prefWidth="150.0" GridPane.columnIndex="4" />
+                                    <ComboBox fx:id="comboBoxOfDate" prefWidth="150.0" 
+                                    	GridPane.columnIndex="5" />
+                                </children>
+                              </GridPane>
+                              <GridPane AnchorPane.bottomAnchor="635.0" 
+                              	AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" 
+                              	AnchorPane.topAnchor="0.0">
+                                <columnConstraints>
+                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" 
+                                  	prefWidth="100.0" />
+                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" 
+                                  	prefWidth="100.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" 
+                                    	prefWidth="100.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" 
+                                    	prefWidth="100.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" 
+                                    	prefWidth="100.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" 
+                                    	prefWidth="100.0" />
+                                </columnConstraints>
+                                <rowConstraints>
+                                  <RowConstraints minHeight="10.0" prefHeight="30.0" 
+                                  	vgrow="SOMETIMES" />
+                                </rowConstraints>
+                                 <children>
+                                    
+                                    <Label id="labelText" fx:id="nameLabel" 
+                                    	alignment="CENTER" minWidth="120.0" text="Name" 
+                                    	textAlignment="CENTER" GridPane.halignment="CENTER" 
+                                    	GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER" 
+                                    	GridPane.vgrow="ALWAYS" />
+                                    <Label id="labelText" fx:id="manufacturerLabel" 
+                                    	alignment="CENTER" minWidth="120.0" 
+                                    	text="Manufacturer" textAlignment="CENTER" 
+                                    	GridPane.columnIndex="1" GridPane.halignment="CENTER"
+                                    	GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER"
+                                    	GridPane.vgrow="ALWAYS" />
+                                    <Label id="labelText" fx:id="priceLabel" 
+                                    	alignment="CENTER" minWidth="120.0" text="Price in $"
+                                    	textAlignment="CENTER" GridPane.columnIndex="2" 
+                                    	GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS"
+                                    	GridPane.valignment="CENTER" 
+                                    	GridPane.vgrow="ALWAYS" />
+                                    <Label id="labelText" fx:id="descriptionLabel" 
+                                    	alignment="CENTER" minWidth="120.0" 
+                                    	text="Description" textAlignment="CENTER" 
+                                    	GridPane.columnIndex="3" GridPane.halignment="CENTER"
+                                    	GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER"
+                                    	GridPane.vgrow="ALWAYS" />
+                                    <Label id="labelText" fx:id="quantityLabel" 
+                                    	alignment="CENTER" minWidth="120.0" text="Quantity"
+                                    	textAlignment="CENTER" GridPane.columnIndex="4" 
+                                    	GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS"
+                                    	GridPane.valignment="CENTER" 
+                                    	GridPane.vgrow="ALWAYS" />
+                                    <Label id="labelText" fx:id="dateLabel" 
+                                    	alignment="CENTER" minWidth="120.0" 
+                                    	text="Date" textAlignment="CENTER" 
+                                    	GridPane.columnIndex="5" GridPane.halignment="CENTER" 
+                                    	GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER" 
+                                    	GridPane.vgrow="ALWAYS" />
+                                 
+                                 </children>
+                              </GridPane>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </ScrollPane>
+                  <TabPane fx:id="tabPane" layoutX="-7.0" layoutY="116.0" prefHeight="200.0"
+                  	 prefWidth="730.0" tabClosingPolicy="UNAVAILABLE" visible="false" 
+                  	 AnchorPane.bottomAnchor="0.0" AnchorPane.topAnchor="20.0">
+                    <tabs>
+                      <Tab fx:id="profitTab" text="Profit">
+                        <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" 
+                          	prefWidth="720.0">
+                                 <children>
+                                    <Rectangle fx:id="profitRectangle" arcHeight="5.0" 
+                                    	arcWidth="5.0" fill="#4bde7f1c" height="669.0" 
+                                    	layoutX="323.0" layoutY="158.0" stroke="TRANSPARENT" 
+                                    	strokeType="INSIDE" width="730.0" 
+                                    	AnchorPane.bottomAnchor="0.0" 
+                                    	AnchorPane.leftAnchor="0.0" 
+                                    	AnchorPane.rightAnchor="-1.0" 
+                                    	AnchorPane.topAnchor="0.0" />
+                                    <Label fx:id="choseDateProfitLabel" layoutX="14.0" 
+                                    	layoutY="37.0" nodeOrientation="RIGHT_TO_LEFT" 
+                                    	prefHeight="20.0" prefWidth="150.0" 
+                                    	text="Chose date:" AnchorPane.leftAnchor="15.0" 
+                                    	AnchorPane.topAnchor="30.0" />
+                                    <Label fx:id="selectProfitLabel" layoutX="103.0" 
+                                    	layoutY="80.0" nodeOrientation="RIGHT_TO_LEFT" 
+                                    	prefHeight="20.0" prefWidth="150.0" 
+                                    	text="Select profit by:" AnchorPane.leftAnchor="15.0"
+                                    	AnchorPane.topAnchor="80.0" />
+                                    <Label fx:id="totalProfitLabel" layoutX="420.0" 
+                                    	layoutY="80.0" nodeOrientation="RIGHT_TO_LEFT"
+                                    	prefHeight="20.0" prefWidth="148.0" 
+                                    	text="Total profit in $:" 
+                                    	AnchorPane.leftAnchor="420.0" 
+                                    	AnchorPane.topAnchor="80.0" />
+                                    <DatePicker fx:id="profitDatePicker" layoutX="185.0" 
+                                    	layoutY="25.0" prefHeight="30.0" prefWidth="220.0" />
+                                    <Button fx:id="byDayButton" layoutX="183.0" 
+                                    	layoutY="75.0" mnemonicParsing="false" 
+                                    	onAction="#showProfitByDay" prefWidth="60.0" 
+                                    	text="Day" AnchorPane.leftAnchor="185.0" />
+                                    <Button fx:id="byMonthButton" layoutX="251.0" 
+                                    	layoutY="75.0" mnemonicParsing="false" 
+                                    	onAction="#showProfitByMonth" prefWidth="60.0" 
+                                    	text="Month" AnchorPane.leftAnchor="265.0" />
+                                    <Button fx:id="byYearButton" layoutX="338.0" 
+                                    	layoutY="75.0" mnemonicParsing="false" 
+                                    	onAction="#showProfitByYear" prefWidth="60.0" 
+                                    	text="Year" AnchorPane.leftAnchor="345.0" />
+                                    <TableView fx:id="profitTableView" layoutX="25.0" 
+                                    	layoutY="125.0" prefHeight="476.0" prefWidth="675.0" 
+                                    	AnchorPane.topAnchor="125.0" />
+                                    <TextField fx:id="profitTextField" editable="false" 
+                                    	layoutX="575.0" layoutY="75.0" prefHeight="30.0"
+                                    	prefWidth="125.0" />
+                                 </children>
+                              </AnchorPane>
+                        </content>
+                      </Tab>
+                      <Tab fx:id="salaryTab" text="Salaries">
+                        <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" 
+                          	prefWidth="200.0">
+                                 <children>
+                                    <Rectangle fx:id="salaryRectangle" arcHeight="5.0" 
+                                    	arcWidth="5.0" fill="#4bde7f1c" height="669.0" 
+                                    	stroke="TRANSPARENT" strokeType="INSIDE" 
+                                    	width="730.0" AnchorPane.bottomAnchor="0.0" 
+                                    	AnchorPane.leftAnchor="0.0" 
+                                    	AnchorPane.rightAnchor="0.0" 
+                                    	AnchorPane.topAnchor="0.0" />
+                                    <Label fx:id="choseDateSalaryLabel" layoutX="24.0" 
+                                    	layoutY="47.0" nodeOrientation="RIGHT_TO_LEFT" 
+                                    	prefHeight="20.0" prefWidth="150.0" 
+                                    	text="Chose date:" AnchorPane.topAnchor="30.0" />
+                                    <DatePicker fx:id="salaryDatePicker" layoutX="185.0" 
+                                    	layoutY="25.0" prefHeight="30.0" prefWidth="220.0" />
+                                 	<TableView fx:id="salaryTableView" layoutX="24.0" 
+                                 		layoutY="14.0" prefHeight="263.0" prefWidth="680.0" 
+                                 		AnchorPane.topAnchor="140.0" />
+                                    
+                                    <Button fx:id="showSalaryBotton" layoutX="428.0" 
+                                    	layoutY="25.0" mnemonicParsing="false" 
+                                    	onAction="#showSalary" 
+                                    	text="Show month salaries" />
+                                    
+                                    <TextField fx:id="totalProfitTextField" editable="false"
+                                     	layoutX="165.0" layoutY="495.0" prefHeight="30.0" 
+                                     	prefWidth="130.0" AnchorPane.leftAnchor="175.0" 
+                                     	AnchorPane.topAnchor="495.0" />
+                                    <TextField fx:id="totalSalaryTextField" editable="false"
+                                    	layoutX="165.0" layoutY="535.0" prefHeight="30.0"
+                                    	prefWidth="130.0" AnchorPane.leftAnchor="175.0" 
+                                    	AnchorPane.topAnchor="535.0" />
+                                    <TextField fx:id="remainderTextField" editable="false" 
+                                    	layoutX="165.0" layoutY="575.0" prefWidth="130.0" 
+                                    	AnchorPane.leftAnchor="175.0" 
+                                    	AnchorPane.topAnchor="575.0" />
+                                    <Label fx:id="profitLabel" layoutX="37.0" 
+                                    	layoutY="500.0" nodeOrientation="RIGHT_TO_LEFT" 
+                                    	prefHeight="20.0" 
+                                    	prefWidth="150.0" text="Total profit in $:" 
+                                    	AnchorPane.leftAnchor="20.0" 
+                                    	AnchorPane.topAnchor="500.0" />
+                                    <Label fx:id="sallaryLabel" layoutX="14.0" 
+                                    	layoutY="540.0" nodeOrientation="RIGHT_TO_LEFT" 
+                                    	prefHeight="20.0" prefWidth="150.0" 
+                                    	text="Sum of salaries in $:" 
+                                    	AnchorPane.leftAnchor="20.0" 
+                                    	AnchorPane.topAnchor="540.0" />
+                                    <Label fx:id="remainderLabel" layoutX="37.0" 
+                                    	layoutY="580.0" nodeOrientation="RIGHT_TO_LEFT" 
+                                    	prefHeight="20.0" prefWidth="150.0" 
+                                    	text="Remainder in $:" AnchorPane.leftAnchor="20.0"
+                                    	AnchorPane.topAnchor="580.0" />
+                                 </children>
+                           </AnchorPane>
+                        </content>
+                      </Tab>
+                      <Tab fx:id="editSalaryTab" text="Edit salaries">
+                        <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" 
+                          		prefWidth="200.0">
+                                 <children>
+                                    <Rectangle fx:id="salaryRectangle" arcHeight="5.0" 
+                                    	arcWidth="5.0" fill="#4bde7f1c" height="669.0" 
+                                    	stroke="TRANSPARENT" strokeType="INSIDE" 
+                                    	width="730.0" />
+                                    <TableView fx:id="salaryForEditTableView" layoutX="25.0"
+                                    	layoutY="74.0" prefHeight="509.0" prefWidth="680.0" 
+                                    	AnchorPane.topAnchor="80.0" />
+                                    <Button fx:id="editSalaryBotton" layoutX="25.0" 
+                                    	layoutY="29.0" mnemonicParsing="false" 
+                                    	onAction="#editSalary" text="Edit salary" />
+                                 </children>
+                          </AnchorPane>
+                        </content>
+                      </Tab>
+                    </tabs>
+                  </TabPane>
+               </children>
+            </AnchorPane>
+         </center>
+         
+         <right>
+            <AnchorPane fx:id="anchorPaneRight" prefHeight="200.0" prefWidth="140.0" 
+            	BorderPane.alignment="CENTER">
+               <children>
+               
+                  <Button id="workerButton" fx:id="addWorker" mnemonicParsing="false" 
+                  		onAction="#addWorker" prefWidth="126.0" text="Add worker" 
+                  		translateX="7.0" visible="false" AnchorPane.topAnchor="220.0" />
+                  <Button id="workerButton" fx:id="editWorker" mnemonicParsing="false" 
+                  		onAction="#editWorker" prefWidth="126.0" text="Edit" 
+                  		translateX="7.0" visible="false" AnchorPane.topAnchor="250.0" />
+                  <Button id="workerButton" fx:id="dismissWorker" mnemonicParsing="false" 
+                  		onAction="#dismissWorker" prefWidth="126.0" text="Dismiss" 
+                  		translateX="7.0" visible="false" AnchorPane.topAnchor="280.0" />
+                  
+                  <Label fx:id="workerLabel" layoutX="11.0" layoutY="14.0" text="Label" 
+                  		AnchorPane.topAnchor="14.0" />
+                  <Button fx:id="quitButton" layoutX="9.0" layoutY="45.0" 
+                  		mnemonicParsing="false" onAction="#quit" prefWidth="120.0" 
+                  		text="Quit" AnchorPane.rightAnchor="10.0" />
+                  <Line layoutX="-11.0" layoutY="34.0" startX="120.0" 
+                  		AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="33.5" />
+               </children>
+            </AnchorPane>
+         </right>
+         
+         <bottom>
+            <AnchorPane prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+         </bottom>
+         
+         
+      </BorderPane>
+   </children>
+</AnchorPane>

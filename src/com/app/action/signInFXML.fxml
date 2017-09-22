@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import java.lang.String?>
+<?import java.net.URL?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Text?>
+
+<GridPane alignment="center" hgap="10" 
+		prefHeight="400.0" prefWidth="400.0" vgap="10" 
+		xmlns="http://javafx.com/javafx/8.0.111" 
+		xmlns:fx="http://javafx.com/fxml/1"
+		fx:controller="com.app.control.SignInController"
+		stylesheets="@../../../../resources/css/Login.css">
+    
+	<padding>
+		<Insets bottom="10" left="25" right="25" top="25" />
+	</padding>
+  
+	<Text fx:id="header" text="Sign in" GridPane.columnIndex="0" 
+		GridPane.columnSpan="2" GridPane.rowIndex="0" />
+  
+  
+  
+ 	<Label fx:id="userLabel" text="User Name:" GridPane.columnIndex="0" 
+ 		GridPane.rowIndex="1" />
+  	<TextField fx:id="textField" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+ 
+  	<Label fx:id="passwordLabel" text="Password:" GridPane.columnIndex="0" 
+  		GridPane.rowIndex="2" />
+  	<PasswordField fx:id="passwordField" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+  
+  
+  
+  	<HBox alignment="bottom_right" spacing="10" GridPane.columnIndex="1" 
+  		GridPane.rowIndex="4">
+    	<Button fx:id="buttonSignIn" onAction="#handleSubmitButtonAction" text="Sign In" />
+  	</HBox>
+  	
+  	
+
+  	<HBox alignment="bottom_left" spacing="10" GridPane.columnIndex="0" GridPane.rowIndex="4">
+    	<ComboBox fx:id="comboBoxSignIn" onAction="#languagesComboBoxAction" 
+    		promptText="choose language">
+    		<items>
+    			<FXCollections fx:factory="observableArrayList">
+		          <String fx:value="English" />
+		          <String fx:value="Українська" />
+		          <String fx:value="Русский" />
+        		</FXCollections>
+    		</items>
+    	</ComboBox>
+  	</HBox>
+  
+  	<Text fx:id="actiontarget" GridPane.columnIndex="0" GridPane.columnSpan="2" 
+  		GridPane.halignment="RIGHT" GridPane.rowIndex="6">
+      <effect>
+         <Glow level="1.0" />
+      </effect></Text>
+  
+  	
+</GridPane>

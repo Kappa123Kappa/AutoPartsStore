@@ -1,0 +1,47 @@
+#header { 
+	-fx-font-family: Circular,Helvetica,Arial, sans-serif; 
+	-fx-font-weight:bold;
+	-fx-font-size: 20pt; 
+	-fx-fill: #4bdf80;
+}
+
+#userLabel { 
+	-fx-font-family: Circular,Helvetica,Arial, sans-serif; 
+	-fx-font-size: 12pt; 
+	-fx-text-fill: white;
+}
+
+#passwordLabel { 
+	-fx-font-family: Circular,Helvetica,Arial, sans-serif; 
+	-fx-font-size: 12pt; 
+	-fx-text-fill: white;
+}
+
+
+#gridPanel{
+	-fx-background-color: #686868;
+}
+
+#textField:active{
+	-fx-background-color: #686868;
+}
+
+#actiontarget{
+	-fx-fill: #4bdf80;
+}
+
+#buttonSignIn{
+	-fx-background-color: #1db954;
+}
+
+#buttonSignIn:hover{
+	-fx-background-color: #4bdf80;
+}
+
+.root{
+	-fx-background-color: #686868;
+	-fx-background-image: url("../photos/ac-cobra-garage-2.png");
+	-fx-background-size: auto;
+	-fx-background-position: center;
+}
+

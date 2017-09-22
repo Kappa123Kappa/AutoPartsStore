@@ -1,0 +1,86 @@
+.root{
+	-fx-background-color: #686868;
+	-fx-background-image: url("../photos/cockpit910-2.png");
+	-fx-background-size: cover;
+	-fx-background-position: center;
+	-fx-background-repeat: repeat-y;
+}
+
+
+
+.menu-bar {
+    -fx-background-color: #686868;
+}
+
+.menu{
+	-fx-background-color: #1db954;
+}
+
+.menu:hover{
+	-fx-background-color: #4bdf80;
+}
+
+.menu-item{
+	-fx-background-color: #686868;
+}
+
+.menu-item:hover{
+	-fx-background-color: #4bdf80;
+}
+
+.context-menu {
+    -fx-padding:0.0;
+}
+
+.menu-bar .label{
+	-fx-font-family: Circular,Helvetica,Arial, sans-serif; 
+	-fx-font-size: 12pt; 
+	-fx-text-fill: white;
+}
+
+
+#labelText {
+	-fx-font-family: Circular,Helvetica,Arial, sans-serif; 
+	-fx-font-size: 12pt; 
+	-fx-text-fill: white;
+	-fx-background-color: #4bdf80; 
+	-fx-background-radius: 0; 
+}
+
+#workerButton{
+	-fx-background-color: #686868;
+	-fx-font-family: Circular,Helvetica,Arial, sans-serif; 
+	-fx-font-size: 10pt; 
+	-fx-text-fill: white;
+	-fx-padding: 0;
+}
+
+#workerButton:hover{
+	-fx-background-color: #4bdf80;
+}
+
+
+.combo-box .text{
+	-fx-font-family: Circular,Helvetica,Arial, sans-serif; 
+	-fx-font-size: 10pt;
+}
+
+
+.button{
+	-fx-background-color: #686868;
+	-fx-font-family: Circular,Helvetica,Arial, sans-serif; 
+	-fx-font-size: 10pt; 
+	-fx-text-fill: white;
+	
+}
+.button:hover{
+	-fx-background-color: #4bdf80;
+}
+.button:armed{
+	-fx-background-color: #1db954;
+}
+
+
+
+
+

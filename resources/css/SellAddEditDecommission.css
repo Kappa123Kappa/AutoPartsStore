@@ -1,0 +1,34 @@
+.root{
+	-fx-background-color: #686868;
+}
+
+.label {
+	-fx-font-family: Circular,Helvetica,Arial, sans-serif; 
+	-fx-font-size: 12pt; 
+	-fx-text-fill: white;
+}
+
+.combo-box{
+	-fx-background-color: #1db954;
+}
+
+.combo-box:focused{
+	-fx-background-color: #4bdf80;
+}
+
+.button{
+	-fx-background-color: #1db954;
+	-fx-font-family: Circular,Helvetica,Arial, sans-serif; 
+	-fx-font-size: 10pt; 
+	-fx-text-fill: white;
+}
+.button:hover{
+	-fx-background-color: #4bdf80;
+}
+.button:armed{
+	-fx-background-color: #1db954;
+}
+
+.text-field:focused{
+	-fx-border-color: #686868;
+}
