@@ -172,8 +172,8 @@ public class MainController {
 	        	windowMenu.setText("Window");
 	        	chooseLanguageMenu.setText("Choose Language");
 	        	enMenuItem.setText("English");
-	        	uaMenuItem.setText("Українська");
-	        	ruMenuItem.setText("Русский");
+	        	uaMenuItem.setText("Г“ГЄГ°Г ВїГ­Г±ГјГЄГ ");
+	        	ruMenuItem.setText("ГђГіГ±Г±ГЄГЁГ©");
 	        	
 	        	helpMenu.setText("Help");
 	        	aboutMenuItem.setText("About");
@@ -222,119 +222,119 @@ public class MainController {
 	        	break;
 	        	
 	        case 2 :
-	        	dataBaseMenu.setText("База даних");
-	        	workers.setText("Робітники");
-	        	availableAutoPartsMenuItem.setText("Доступні автозапчастини");
-	        	soldAutoPartsMenuItem.setText("Продані автозапчастини");
-	        	accounting.setText("Бухгалтерія");
+	        	dataBaseMenu.setText("ГЃГ Г§Г  Г¤Г Г­ГЁГµ");
+	        	workers.setText("ГђГ®ГЎВіГІГ­ГЁГЄГЁ");
+	        	availableAutoPartsMenuItem.setText("Г„Г®Г±ГІГіГЇГ­Ві Г ГўГІГ®Г§Г ГЇГ·Г Г±ГІГЁГ­ГЁ");
+	        	soldAutoPartsMenuItem.setText("ГЏГ°Г®Г¤Г Г­Ві Г ГўГІГ®Г§Г ГЇГ·Г Г±ГІГЁГ­ГЁ");
+	        	accounting.setText("ГЃГіГµГЈГ Г«ГІГҐГ°ВіГї");
 	        	
-	        	windowMenu.setText("Вікно");
-	        	chooseLanguageMenu.setText("Обрати мову");
+	        	windowMenu.setText("Г‚ВіГЄГ­Г®");
+	        	chooseLanguageMenu.setText("ГЋГЎГ°Г ГІГЁ Г¬Г®ГўГі");
 	        	enMenuItem.setText("English");
-	        	uaMenuItem.setText("Українська");
-	        	ruMenuItem.setText("Русский");
+	        	uaMenuItem.setText("Г“ГЄГ°Г ВїГ­Г±ГјГЄГ ");
+	        	ruMenuItem.setText("ГђГіГ±Г±ГЄГЁГ©");
 	        	
-	        	helpMenu.setText("Допомога");
-	        	aboutMenuItem.setText("Про програму");
+	        	helpMenu.setText("Г„Г®ГЇГ®Г¬Г®ГЈГ ");
+	        	aboutMenuItem.setText("ГЏГ°Г® ГЇГ°Г®ГЈГ°Г Г¬Гі");
 
-	        	sellButton.setText("Продати автозапчастини");
-	        	addButton.setText("Додати автозапчастини");
-	        	editButton.setText("Змінити автозапчастини");
-	        	decommissionButton.setText("Списати автозапчастини");
+	        	sellButton.setText("ГЏГ°Г®Г¤Г ГІГЁ Г ГўГІГ®Г§Г ГЇГ·Г Г±ГІГЁГ­ГЁ");
+	        	addButton.setText("Г„Г®Г¤Г ГІГЁ Г ГўГІГ®Г§Г ГЇГ·Г Г±ГІГЁГ­ГЁ");
+	        	editButton.setText("Г‡Г¬ВіГ­ГЁГІГЁ Г ГўГІГ®Г§Г ГЇГ·Г Г±ГІГЁГ­ГЁ");
+	        	decommissionButton.setText("Г‘ГЇГЁГ±Г ГІГЁ Г ГўГІГ®Г§Г ГЇГ·Г Г±ГІГЁГ­ГЁ");
 	        	
-	        	labelTotalPrice.setText("Загальна ціна:");
+	        	labelTotalPrice.setText("Г‡Г ГЈГ Г«ГјГ­Г  Г¶ВіГ­Г :");
 	        	
-	        	nameLabel.setText("Назва");
-	        	manufacturerLabel.setText("Виробник");
-	        	priceLabel.setText("Ціна у $");
-	        	descriptionLabel.setText("Опис");
-	        	quantityLabel.setText("Кількість");
-	        	dateLabel.setText("Дата");
-	        	
-	        	
-	        	
-	        	profitTab.setText("Прибуток");
-	        	choseDateProfitLabel.setText("Оберіть дату:");
-	        	selectProfitLabel.setText("Оберить прибуток за:");
-	        	totalProfitLabel.setText("Заг. прибуток у $:");
-	        	byDayButton.setText("День");
-	        	byMonthButton.setText("Місяць");
-	        	byYearButton.setText("Рік");
-	        	
-	        	salaryTab.setText("Зарплата");
-	        	choseDateSalaryLabel.setText("Оберіть дату:");
-	        	showSalaryBotton.setText("Показати місячну зарплату");
-	        	
-	        	profitLabel.setText("Загальний прибуток у $:");
-	        	sallaryLabel.setText("Сума зарплат у $:");
-	        	remainderLabel.setText("Залишок у $:");
-	        	
-	        	editSalaryTab.setText("Змінити зарплати");
-	        	editSalaryBotton.setText("Змінити зарплату");
+	        	nameLabel.setText("ГЌГ Г§ГўГ ");
+	        	manufacturerLabel.setText("Г‚ГЁГ°Г®ГЎГ­ГЁГЄ");
+	        	priceLabel.setText("Г–ВіГ­Г  Гі $");
+	        	descriptionLabel.setText("ГЋГЇГЁГ±");
+	        	quantityLabel.setText("ГЉВіГ«ГјГЄВіГ±ГІГј");
+	        	dateLabel.setText("Г„Г ГІГ ");
 	        	
 	        	
-	        	addWorker.setText("Додати робітника");
-	        	editWorker.setText("Змінти робітника");
-	        	dismissWorker.setText("Звільнити робітника");
-	        	quitButton.setText("Вийти");
+	        	
+	        	profitTab.setText("ГЏГ°ГЁГЎГіГІГ®ГЄ");
+	        	choseDateProfitLabel.setText("ГЋГЎГҐГ°ВіГІГј Г¤Г ГІГі:");
+	        	selectProfitLabel.setText("ГЋГЎГҐГ°ГЁГІГј ГЇГ°ГЁГЎГіГІГ®ГЄ Г§Г :");
+	        	totalProfitLabel.setText("Г‡Г ГЈ. ГЇГ°ГЁГЎГіГІГ®ГЄ Гі $:");
+	        	byDayButton.setText("Г„ГҐГ­Гј");
+	        	byMonthButton.setText("ГЊВіГ±ГїГ¶Гј");
+	        	byYearButton.setText("ГђВіГЄ");
+	        	
+	        	salaryTab.setText("Г‡Г Г°ГЇГ«Г ГІГ ");
+	        	choseDateSalaryLabel.setText("ГЋГЎГҐГ°ВіГІГј Г¤Г ГІГі:");
+	        	showSalaryBotton.setText("ГЏГ®ГЄГ Г§Г ГІГЁ Г¬ВіГ±ГїГ·Г­Гі Г§Г Г°ГЇГ«Г ГІГі");
+	        	
+	        	profitLabel.setText("Г‡Г ГЈГ Г«ГјГ­ГЁГ© ГЇГ°ГЁГЎГіГІГ®ГЄ Гі $:");
+	        	sallaryLabel.setText("Г‘ГіГ¬Г  Г§Г Г°ГЇГ«Г ГІ Гі $:");
+	        	remainderLabel.setText("Г‡Г Г«ГЁГёГ®ГЄ Гі $:");
+	        	
+	        	editSalaryTab.setText("Г‡Г¬ВіГ­ГЁГІГЁ Г§Г Г°ГЇГ«Г ГІГЁ");
+	        	editSalaryBotton.setText("Г‡Г¬ВіГ­ГЁГІГЁ Г§Г Г°ГЇГ«Г ГІГі");
+	        	
+	        	
+	        	addWorker.setText("Г„Г®Г¤Г ГІГЁ Г°Г®ГЎВіГІГ­ГЁГЄГ ");
+	        	editWorker.setText("Г‡Г¬ВіГ­ГІГЁ Г°Г®ГЎВіГІГ­ГЁГЄГ ");
+	        	dismissWorker.setText("Г‡ГўВіГ«ГјГ­ГЁГІГЁ Г°Г®ГЎВіГІГ­ГЁГЄГ ");
+	        	quitButton.setText("Г‚ГЁГ©ГІГЁ");
 	        	
 	        	break;
 	        	
 	        case 3 :
-	        	dataBaseMenu.setText("База данных");
-	        	workers.setText("Работники");
-	        	availableAutoPartsMenuItem.setText("Доступные автозапчасти");
-	        	soldAutoPartsMenuItem.setText("Проданные автозапчасти");
-	        	accounting.setText("Бухгалтерия");
+	        	dataBaseMenu.setText("ГЃГ Г§Г  Г¤Г Г­Г­Г»Гµ");
+	        	workers.setText("ГђГ ГЎГ®ГІГ­ГЁГЄГЁ");
+	        	availableAutoPartsMenuItem.setText("Г„Г®Г±ГІГіГЇГ­Г»ГҐ Г ГўГІГ®Г§Г ГЇГ·Г Г±ГІГЁ");
+	        	soldAutoPartsMenuItem.setText("ГЏГ°Г®Г¤Г Г­Г­Г»ГҐ Г ГўГІГ®Г§Г ГЇГ·Г Г±ГІГЁ");
+	        	accounting.setText("ГЃГіГµГЈГ Г«ГІГҐГ°ГЁГї");
 	        	
-	        	windowMenu.setText("Окно");
-	        	chooseLanguageMenu.setText("Выбрать язык");
+	        	windowMenu.setText("ГЋГЄГ­Г®");
+	        	chooseLanguageMenu.setText("Г‚Г»ГЎГ°Г ГІГј ГїГ§Г»ГЄ");
 	        	enMenuItem.setText("English");
-	        	uaMenuItem.setText("Українська");
-	        	ruMenuItem.setText("Русский");
+	        	uaMenuItem.setText("Г“ГЄГ°Г ВїГ­Г±ГјГЄГ ");
+	        	ruMenuItem.setText("ГђГіГ±Г±ГЄГЁГ©");
 	        	
-	        	helpMenu.setText("Помощь");
-	        	aboutMenuItem.setText("Об програме");
+	        	helpMenu.setText("ГЏГ®Г¬Г®Г№Гј");
+	        	aboutMenuItem.setText("ГЋГЎ ГЇГ°Г®ГЈГ°Г Г¬ГҐ");
 
-	        	sellButton.setText("Продать автозапчасти");
-	        	addButton.setText("Добавить автозапчасти");
-	        	editButton.setText("Изменить автозапчасти");
-	        	decommissionButton.setText("Списать автозапчасти");
+	        	sellButton.setText("ГЏГ°Г®Г¤Г ГІГј Г ГўГІГ®Г§Г ГЇГ·Г Г±ГІГЁ");
+	        	addButton.setText("Г„Г®ГЎГ ГўГЁГІГј Г ГўГІГ®Г§Г ГЇГ·Г Г±ГІГЁ");
+	        	editButton.setText("Г€Г§Г¬ГҐГ­ГЁГІГј Г ГўГІГ®Г§Г ГЇГ·Г Г±ГІГЁ");
+	        	decommissionButton.setText("Г‘ГЇГЁГ±Г ГІГј Г ГўГІГ®Г§Г ГЇГ·Г Г±ГІГЁ");
 	        	
-	        	labelTotalPrice.setText("Общая цена:");
+	        	labelTotalPrice.setText("ГЋГЎГ№Г Гї Г¶ГҐГ­Г :");
 	        	
-	        	nameLabel.setText("Название");
-	        	manufacturerLabel.setText("Производитель");
-	        	priceLabel.setText("Цена в $");
-	        	descriptionLabel.setText("Описание");
-	        	quantityLabel.setText("Количество");
-	        	dateLabel.setText("Дата");
+	        	nameLabel.setText("ГЌГ Г§ГўГ Г­ГЁГҐ");
+	        	manufacturerLabel.setText("ГЏГ°Г®ГЁГ§ГўГ®Г¤ГЁГІГҐГ«Гј");
+	        	priceLabel.setText("Г–ГҐГ­Г  Гў $");
+	        	descriptionLabel.setText("ГЋГЇГЁГ±Г Г­ГЁГҐ");
+	        	quantityLabel.setText("ГЉГ®Г«ГЁГ·ГҐГ±ГІГўГ®");
+	        	dateLabel.setText("Г„Г ГІГ ");
 	        	
 	        	
 	        	
-	        	profitTab.setText("Прибыль");
-	        	choseDateProfitLabel.setText("Выберите дату:");
-	        	selectProfitLabel.setText("Выберите прибыль за:");
-	        	totalProfitLabel.setText("Общая прибыль в $:");
-	        	byDayButton.setText("День");
-	        	byMonthButton.setText("Месяц");
-	        	byYearButton.setText("Год");
+	        	profitTab.setText("ГЏГ°ГЁГЎГ»Г«Гј");
+	        	choseDateProfitLabel.setText("Г‚Г»ГЎГҐГ°ГЁГІГҐ Г¤Г ГІГі:");
+	        	selectProfitLabel.setText("Г‚Г»ГЎГҐГ°ГЁГІГҐ ГЇГ°ГЁГЎГ»Г«Гј Г§Г :");
+	        	totalProfitLabel.setText("ГЋГЎГ№Г Гї ГЇГ°ГЁГЎГ»Г«Гј Гў $:");
+	        	byDayButton.setText("Г„ГҐГ­Гј");
+	        	byMonthButton.setText("ГЊГҐГ±ГїГ¶");
+	        	byYearButton.setText("ГѓГ®Г¤");
 	        	
-	        	salaryTab.setText("Зарплата");
-	        	choseDateSalaryLabel.setText("Выберите дату:");
-	        	showSalaryBotton.setText("Показать месячную зарплату");
+	        	salaryTab.setText("Г‡Г Г°ГЇГ«Г ГІГ ");
+	        	choseDateSalaryLabel.setText("Г‚Г»ГЎГҐГ°ГЁГІГҐ Г¤Г ГІГі:");
+	        	showSalaryBotton.setText("ГЏГ®ГЄГ Г§Г ГІГј Г¬ГҐГ±ГїГ·Г­ГіГѕ Г§Г Г°ГЇГ«Г ГІГі");
 	        	
-	        	profitLabel.setText("Общая прибыль в $:");
-	        	sallaryLabel.setText("Сумма зарплат в $:");
-	        	remainderLabel.setText("Остаток в $:");
+	        	profitLabel.setText("ГЋГЎГ№Г Гї ГЇГ°ГЁГЎГ»Г«Гј Гў $:");
+	        	sallaryLabel.setText("Г‘ГіГ¬Г¬Г  Г§Г Г°ГЇГ«Г ГІ Гў $:");
+	        	remainderLabel.setText("ГЋГ±ГІГ ГІГ®ГЄ Гў $:");
 	        	
-	        	editSalaryTab.setText("Сменить зарплаты");
-	        	editSalaryBotton.setText("Сменить зарплату");
+	        	editSalaryTab.setText("Г‘Г¬ГҐГ­ГЁГІГј Г§Г Г°ГЇГ«Г ГІГ»");
+	        	editSalaryBotton.setText("Г‘Г¬ГҐГ­ГЁГІГј Г§Г Г°ГЇГ«Г ГІГі");
 	        	
-	        	addWorker.setText("Добавить работника");
-	        	editWorker.setText("Изменить работника");
-	        	dismissWorker.setText("Уволить работника");
-	        	quitButton.setText("Выйти");
+	        	addWorker.setText("Г„Г®ГЎГ ГўГЁГІГј Г°Г ГЎГ®ГІГ­ГЁГЄГ ");
+	        	editWorker.setText("Г€Г§Г¬ГҐГ­ГЁГІГј Г°Г ГЎГ®ГІГ­ГЁГЄГ ");
+	        	dismissWorker.setText("Г“ГўГ®Г«ГЁГІГј Г°Г ГЎГ®ГІГ­ГЁГЄГ ");
+	        	quitButton.setText("Г‚Г»Г©ГІГЁ");
 	        	
 	        	break;
 	        	
@@ -348,8 +348,8 @@ public class MainController {
 	        	windowMenu.setText("Window");
 	        	chooseLanguageMenu.setText("Choose Language");
 	        	enMenuItem.setText("English");
-	        	uaMenuItem.setText("Українська");
-	        	ruMenuItem.setText("Русский");
+	        	uaMenuItem.setText("Г“ГЄГ°Г ВїГ­Г±ГјГЄГ ");
+	        	ruMenuItem.setText("ГђГіГ±Г±ГЄГЁГ©");
 	        	
 	        	helpMenu.setText("Help");
 	        	aboutMenuItem.setText("About");
@@ -443,144 +443,19 @@ public class MainController {
 	@FXML private void addWorker() {
 		autoPartsServiceImpl.showWindowForAddingWorker(main, tableViewWorkers, 
 					language, addWorkerFXMLPath);
-		/*Parent root = null;
-		FXMLLoader loader = new FXMLLoader();
-		loader.setLocation(MainController.class.getResource(addWorkerFXMLPath));
-		try {
-			root = (Parent)loader.load();
-		} catch (Exception e) {
-			System.out.println("Error: " + e);
-		}
-		
-		Stage stage = new Stage();
-		stage.setTitle("Add worker");
-		stage.getIcons().add(new Image(new SignIn().getIconPath()));
-		stage.setScene(new Scene(root, stage.getWidth(), stage.getHeight()));
-		
-		WindowForAddWorkerController controller = loader.getController();
-		
-		controller.setConnection(main.getConnection());
-		controller.setStage(stage);
-		controller.windowControllerLanguage(language);
-	
-		controller.fillPositionComboBox();
-
-		
-		
-		stage.show();
-		
-		stage.setOnHidden(eh -> {
-			showAllWorkers();
-		});*/
 	}
 	
 	@FXML private void editWorker() {
 		autoPartsServiceImpl.showWindowForEditingWorker(main, tableViewWorkers, language, 
 				editWorkerFXMLPath);
-		/*if(tableViewWorkers.getSelectionModel().getSelectedItem() != null) {
-			Parent root = null;
-			FXMLLoader loader = new FXMLLoader();
-			loader.setLocation(MainController.class.getResource(editWorkerFXMLPath));
-			try {
-				root = (Parent)loader.load();
-			} catch (Exception e) {
-				System.out.println("Error: " + e);
-			}
-			
-			Stage stage = new Stage();
-			stage.setTitle("Add worker");
-			stage.getIcons().add(new Image(new SignIn().getIconPath()));
-			stage.setScene(new Scene(root, stage.getWidth(), stage.getHeight()));
-			
-			WindowForEditWorkerController controller = loader.getController();
-			
-			controller.setConnection(main.getConnection());
-			controller.setStage(stage);
-			controller.windowControllerLanguage(language);
-			
-			
-			controller.setWorkerID(tableViewWorkers.getSelectionModel()
-												   .getSelectedItem()
-												   .getID()
-												   .getValue());
-			
-			controller.setFirstNameTextField(tableViewWorkers.getSelectionModel()
-												   .getSelectedItem()
-												   .getFirstName()
-												   .getValue());
-			controller.setSecondNameTextField(tableViewWorkers.getSelectionModel()
-												   .getSelectedItem()
-												   .getSecondName()
-												   .getValue());
-			
-			controller.fillPositionComboBox();
-			
-			controller.setPositionComboBox(tableViewWorkers.getSelectionModel()
-												   .getSelectedItem()
-												   .getPosition()
-												   .getValue());
-			controller.setInterestStableComboBox(tableViewWorkers.getSelectionModel()
-												   .getSelectedItem()
-												   .getInterestStable()
-												   .getValue());
-			controller.setPasswordTextField(tableViewWorkers.getSelectionModel()
-												   .getSelectedItem()
-												   .getPassword()
-												   .getValue());
-			
-			stage.show();
-			
-			stage.setOnHidden(eh -> {
-				showAllWorkers();
-			});
-		} else {
-			Alert alert = new Alert(AlertType.INFORMATION);
-			alert.setTitle("Error");
-			alert.setHeaderText("You did not select a row.");
-			alert.setContentText("Select a row!");
-
-			alert.showAndWait();
-		}
-		*/
+	
 	}
 	
 	@FXML private void dismissWorker() {
 		
 		autoPartsServiceImpl.showWindowForDismissingWorker(main, autoPartsDaoImpl, 
 				tableViewWorkers, language);
-		/*if(tableViewWorkers.getSelectionModel().getSelectedItem() != null) {
-			
-			Alert alert = new Alert(AlertType.CONFIRMATION);
-			alert.setTitle("Dismiss worker");
-			alert.setHeaderText("Confirmation");
-			alert.setContentText("Are you sure, that you want to dismiss worker?");
-
-			Optional<ButtonType> result = alert.showAndWait();
-			if (result.get() == ButtonType.OK){
-				autoPartsDaoImpl.deleteWorkerFromWorkers(main.getConnection(), 
-						tableViewWorkers.getSelectionModel()
-										.getSelectedItem()
-										.getID()
-										.getValue());
-				autoPartsDaoImpl.deleteWorkerFromSallaries(main.getConnection(),
-						tableViewWorkers.getSelectionModel()
-										.getSelectedItem()
-										.getID()
-										.getValue());
-				showAllWorkers();
-			} else {
-				alert.close();
-			}
-			
-			
-		} else {
-			Alert alert = new Alert(AlertType.INFORMATION);
-			alert.setTitle("Error");
-			alert.setHeaderText("You did not select a row.");
-			alert.setContentText("Select a row!");
-
-			alert.showAndWait();
-		}*/
+		
 	}
 	
 	
@@ -631,353 +506,26 @@ public class MainController {
 	@FXML private void showSellWindow() {
 		autoPartsServiceImpl.showWindowForSellingAutoPart(main, autoPartsDaoImpl, tableViewAutoParts, language, 
 				sellFXMLPath);
-		/*if(tableViewAutoParts.getSelectionModel().getSelectedItem() != null)
-		{
-			ObservableList<AutoPart> autoPartsList = 
-					autoPartsDaoImpl.getAllAutoParts(main.getConnection());
-			 
-			
-			Parent root = null;
-			FXMLLoader loader = new FXMLLoader();
-		    loader.setLocation(MainController.class.getResource(sellFXMLPath));
-			try {
-				 root = (Parent)loader.load();
-			} catch (Exception e) {
-				 System.out.println("Error: " + e);
-			}
-			
-			Stage stage = new Stage();
-			stage.setTitle("Auto-parts Store Accounting");
-			stage.getIcons().add(new Image(new SignIn().getIconPath()));
-			stage.setScene(new Scene(root, stage.getWidth(), stage.getHeight()));
-			
-			WindowForSellController controller = loader.getController();
-			
-			controller.setConnection(main.getConnection());
-			
-			controller.windowControllerLanguage(language);
-			
-			controller.setStage(stage);
-			
-			controller.setWorker(main.getWorkersName());
-			
-			for(int i = 0; i < autoPartsList.size(); i++) {
-				if(autoPartsList.get(i).getID().getValue().intValue() 
-						== tableViewAutoParts.getSelectionModel()
-								.getSelectedItem().getID().intValue() ) {
-					controller.setPrice(autoPartsList.get(i)
-													 .getPrice()
-													 .getValue()
-													 .toString());
-				}
-			}
-			
-			
-			controller.setAutoPartID(tableViewAutoParts.getSelectionModel()
-															  .getSelectedItem()
-															  .getID()
-															  .getValue());
-			
-		    controller.setAutoPartNameLabel(tableViewAutoParts.getSelectionModel()
-		    												  .getSelectedItem()
-		    												  .getName()
-		    												  .getValue());
-		    
-		    controller.setAutoPartManufacturerLabel(tableViewAutoParts.getSelectionModel()
-		    												  .getSelectedItem()
-		    												  .getManufacturer()
-		    												  .getValue());
-		   
-		    for(int i = 0; i < autoPartsList.size(); i++) {
-		    	 if(autoPartsList.get(i).getName().getValue()
-		    			 .equals(tableViewAutoParts.getSelectionModel()
-		    												  .getSelectedItem()
-		    												  .getName()
-		    												  .getValue())
-		    		&& autoPartsList.get(i).getDescription().getValue()
-	    			 	.equals(tableViewAutoParts.getSelectionModel()
-							  .getSelectedItem()
-							  .getDescription()
-							  .getValue())) {
-		    		 
-				    controller.setAutoPartPriceLabel(tableViewAutoParts.getSelectionModel()
-				    										  .getSelectedItem()
-				    										  .getPrice()
-				    										  .getValue().toString());
-		    	 }
-		    }
-		   
-		    
-		    controller.setAutoPartDescriptionLabel(tableViewAutoParts.getSelectionModel()
-					  										  .getSelectedItem()
-					  										  .getDescription()
-					  										  .getValue().toString());
-		    
-		    controller.setAutoPartQuantityComboBox(tableViewAutoParts.getSelectionModel()
-		    												  .getSelectedItem()
-		    												  .getQuantity()
-		    												  .getValue());
-		    
-		    controller.setAutoPartDateLabel(tableViewAutoParts.getSelectionModel()
-		    												  .getSelectedItem()
-		    												  .getDate()
-		    												  .getValue());
-			
-			
-			//autoPartsServiceImpl.getSelectedRowForSelling(tableViewAutoParts, 
-		    //	autoPartsList, controller);
-			
-			stage.show();
-			
-			stage.setOnHidden(eh -> {
-				showAvailableAutoPartsActions();
-			});
-			
-		} else {
-			Alert alert = new Alert(AlertType.INFORMATION);
-			alert.setTitle("Error");
-			alert.setHeaderText("You did not select a row.");
-			alert.setContentText("Select a row!");
-
-			alert.showAndWait();
-		}*/
+		
 	}
 	
 	@FXML private void showAddWindow() {
 		autoPartsServiceImpl.showWindowForAddingAutoPart(main, tableViewAutoParts, 
 				language, addAutoPartFXMLPath);
-		/*Parent root = null;
-		FXMLLoader loader = new FXMLLoader();
-	    loader.setLocation(MainController.class.getResource(addAutoPartFXMLPath));
-		try {
-			 root = (Parent)loader.load();
-		} catch (Exception e) {
-			 System.out.println("Error: " + e);
-		}
 		
-		Stage stage = new Stage();
-		stage.setTitle("Auto-parts Store Accounting");
-		stage.getIcons().add(new Image(new SignIn().getIconPath()));
-		stage.setScene(new Scene(root, stage.getWidth(), stage.getHeight()));
-		
-		WindowForAddController controller = loader.getController();
-		
-		controller.setConnection(main.getConnection());
-		
-		controller.windowControllerLanguage(language);
-		
-		controller.setPriceTextFieldPromptText("100.00");
-		
-		controller.setPriceincreaseCoefficientTextFieldPromptText("1.02 = 0.2%");
-		
-		controller.setStage(stage);
-		
-		stage.show();
-		
-		stage.setOnHidden(eh -> {
-			showAvailableAutoPartsActions();
-		});*/
 	}
 	
 	@FXML private void showEditWindow() {
 		autoPartsServiceImpl.showWindowForEditingAutoPart(main, autoPartsDaoImpl, 
 				tableViewAutoParts, language, editAutoPartFXMLPath);
-		/*if(tableViewAutoParts.getSelectionModel().getSelectedItem() != null)
-		{
-			autoPartsDaoImpl = new AutoPartsDaoImpl();
-			ObservableList<AutoPart> autoPartsList = autoPartsDaoImpl.getAllAutoParts(main.getConnection());
-			 
-			
-			Parent root = null;
-			FXMLLoader loader = new FXMLLoader();
-		    loader.setLocation(MainController.class.getResource("../action/editFXML.fxml"));
-			try {
-				 root = (Parent)loader.load();
-			} catch (Exception e) {
-				 System.out.println("Error: " + e);
-			}
-			
-			Stage stage = new Stage();
-			stage.setTitle("Auto-parts Store Accounting");
-			stage.getIcons().add(new Image(new SignIn().getIconPath()));
-			stage.setScene(new Scene(root, stage.getWidth(), stage.getHeight()));
-			
-			WindowForEditController controller = loader.getController();
-			
-			controller.windowControllerLanguage(language);
-			
-			controller.setConnection(main.getConnection());
-			
-			controller.setStage(stage);
-			
-			controller.setAutoPartID(tableViewAutoParts.getSelectionModel()
-															  .getSelectedItem()
-															  .getID()
-															  .getValue());
-			
-		    controller.setAutoPartNameTextField(tableViewAutoParts.getSelectionModel()
-		    												  .getSelectedItem()
-		    												  .getName()
-		    												  .getValue());
-		    
-		    controller.setAutoPartManufacturerTextField(tableViewAutoParts.getSelectionModel()
-		    												  .getSelectedItem()
-		    												  .getManufacturer()
-		    												  .getValue());
-		   
-		    for(int i = 0; i < autoPartsList.size(); i++) {
-		    	 if(autoPartsList.get(i).getName().getValue()
-		    			 .equals(tableViewAutoParts.getSelectionModel()
-		    												  .getSelectedItem()
-		    												  .getName()
-		    												  .getValue())
-		    		&& autoPartsList.get(i).getDescription().getValue()
-	    			 	.equals(tableViewAutoParts.getSelectionModel()
-							  .getSelectedItem()
-							  .getDescription()
-							  .getValue())) {
-		    		 
-				    controller.setAutoPartPriceTextField(autoPartsList.get(i)
-				    										  .getPrice()
-				    										  .getValue().toString());
-		    	 	controller.setAutoPartPriceIncreaseCoefficientTextField(autoPartsList.get(i)
-		    	 			.getPriceIncreaseCoefficient().getValue().toString());
-		    	 }
-		    }
-		   
-		    
-		    controller.setAutoPartDescriptionTextField(tableViewAutoParts.getSelectionModel()
-					  										  .getSelectedItem()
-					  										  .getDescription()
-					  										  .getValue().toString());
-		    
-		    controller.setAutoPartQuantityTextField(tableViewAutoParts.getSelectionModel()
-		    												  .getSelectedItem()
-		    												  .getQuantity()
-		    												  .getValue().toString());
-		    
-			stage.show();
-			
-			stage.setOnHidden(eh -> {
-				showAvailableAutoPartsActions();
-			});
-			
-		} else {
-			Alert alert = new Alert(AlertType.INFORMATION);
-			alert.setTitle("Error");
-			alert.setHeaderText("You did not select a row.");
-			alert.setContentText("Select a row!");
-
-			alert.showAndWait();
-		}*/
+		
 	}
 	
 	@FXML private void showDecomissionWindow() {
 
 		autoPartsServiceImpl.showWindowForDismissingAutoPart(main, autoPartsDaoImpl,
 				tableViewAutoParts, language, decommissionAutoPartFXMLPath);
-		/*if(tableViewAutoParts.getSelectionModel().getSelectedItem() != null)
-		{
-			ObservableList<AutoPart> autoPartsList 
-					= autoPartsDaoImpl.getAllAutoParts(main.getConnection());
-			 
-			
-			Parent root = null;
-			FXMLLoader loader = new FXMLLoader();
-		    loader.setLocation(MainController.class
-		    		.getResource(decommissionAutoPartFXMLPath));
-			try {
-				 root = (Parent)loader.load();
-			} catch (Exception e) {
-				 System.out.println("Error: " + e);
-			}
-			
-			Stage stage = new Stage();
-			stage.setTitle("Auto-parts Store Accounting");
-			stage.getIcons().add(new Image(new SignIn().getIconPath()));
-			stage.setScene(new Scene(root, stage.getWidth(), stage.getHeight()));
-			
-			WindowForDecommissionController controller = loader.getController();
-			
-			controller.setConnection(main.getConnection());
-			
-			controller.windowControllerLanguage(language);
-			
-			controller.setStage(stage);
-			
-			for(int i = 0; i < autoPartsList.size(); i++) {
-				if(autoPartsList.get(i).getID().getValue().intValue() == tableViewAutoParts.getSelectionModel()
-						.getSelectedItem().getID().intValue() ) {
-					controller.setPrice(autoPartsList.get(i).getPrice().getValue().toString());
-				}
-			}
-			
-			controller.setWorker(main.getWorkersName());
-			
-			controller.setAutoPartID(tableViewAutoParts.getSelectionModel()
-															  .getSelectedItem()
-															  .getID()
-															  .getValue());
-			
-		    controller.setAutoPartNameLabel(tableViewAutoParts.getSelectionModel()
-		    												  .getSelectedItem()
-		    												  .getName()
-		    												  .getValue());
-		    
-		    controller.setAutoPartManufacturerLabel(tableViewAutoParts.getSelectionModel()
-		    												  .getSelectedItem()
-		    												  .getManufacturer()
-		    												  .getValue());
-		   
-		    for(int i = 0; i < autoPartsList.size(); i++) {
-		    	 if(autoPartsList.get(i).getName().getValue()
-		    			 .equals(tableViewAutoParts.getSelectionModel()
-		    												  .getSelectedItem()
-		    												  .getName()
-		    												  .getValue())
-		    		&& autoPartsList.get(i).getDescription().getValue()
-	    			 	.equals(tableViewAutoParts.getSelectionModel()
-							  .getSelectedItem()
-							  .getDescription()
-							  .getValue())) {
-		    		 
-				    controller.setAutoPartPriceLabel(tableViewAutoParts.getSelectionModel()
-				    										  .getSelectedItem()
-				    										  .getPrice()
-				    										  .getValue().toString());
-		    	 }
-		    }
-		   
-		    
-		    controller.setAutoPartDescriptionLabel(tableViewAutoParts.getSelectionModel()
-					  										  .getSelectedItem()
-					  										  .getDescription()
-					  										  .getValue().toString());
-		    
-		    controller.setAutoPartQuantityComboBox(tableViewAutoParts.getSelectionModel()
-		    												  .getSelectedItem()
-		    												  .getQuantity()
-		    												  .getValue());
-		    
-		    controller.setAutoPartDateLabel(tableViewAutoParts.getSelectionModel()
-		    												  .getSelectedItem()
-		    												  .getDate()
-		    												  .getValue());
-		    
-			stage.show();
-			
-			stage.setOnHidden(eh -> {
-				showAvailableAutoPartsActions();
-			});
-			
-		} else {
-			Alert alert = new Alert(AlertType.INFORMATION);
-			alert.setTitle("Error");
-			alert.setHeaderText("You did not select a row.");
-			alert.setContentText("Select a row!");
-
-			alert.showAndWait();
-		}*/
+		
 	}
 
 	
@@ -1062,22 +610,7 @@ public class MainController {
 
 			autoPartsServiceImpl.populateProfit(profitTableView, allSoldAutoPats, profitTextField);
 			
-			/*if(allSoldAutoPats.size() >= 1) {
-				BigDecimal price = new BigDecimal("0.00");
-				for(int i = 0; i < profitTableView.getItems().size(); i++) {
-					price = price.add(new BigDecimal(profitTableView.getItems().get(i).getProfit().getValue().toString()));
-				}
-				profitTextField.setText(price.toString());
-				autoPartsServiceImpl.populateProfit(profitTableView, allSoldAutoPats, profitTextField);
-			}
-			else {
-				Alert alert = new Alert(AlertType.INFORMATION);
-				alert.setTitle("Information");
-				alert.setHeaderText("Nothing has been sold in this day.");
-				alert.setContentText("Choose another day.");
-
-				alert.showAndWait();
-			}*/
+			
 		} else {
 			profitTextField.setText("0.00");
 			Alert alert = new Alert(AlertType.INFORMATION);
@@ -1102,25 +635,7 @@ public class MainController {
 							profitDatePicker.getValue().getMonth().getValue());
 			
 			autoPartsServiceImpl.populateProfit(profitTableView, allSoldAutoPats, profitTextField);
-			/*if(allSoldAutoPats.size() >= 1) {
-				BigDecimal price = new BigDecimal("0.00");
-				
-				for(int i = 0; i < profitTableView.getItems().size(); i++) {
-					price = price.add(new BigDecimal(profitTableView.getItems().get(i).getProfit().getValue().toString()));
-				}
-				
-				profitTextField.setText(price.toString());
-				autoPartsServiceImpl.populateProfit(profitTableView, allSoldAutoPats);
-				
-			} else {
-				profitTextField.setText("0.00");
-				Alert alert = new Alert(AlertType.INFORMATION);
-				alert.setTitle("Information");
-				alert.setHeaderText("Nothing has been sold in this month.");
-				alert.setContentText("Choose another month.");
-
-				alert.showAndWait();
-			}*/
+			
 		} else {
 			Alert alert = new Alert(AlertType.INFORMATION);
 			alert.setTitle("Error");
@@ -1144,24 +659,7 @@ public class MainController {
 							profitDatePicker.getValue().getYear());
 			
 			autoPartsServiceImpl.populateProfit(profitTableView, allSoldAutoPats, profitTextField);
-			
-			/*if(allSoldAutoPats.size() >= 1) {
-				BigDecimal price = new BigDecimal("0.0");
-				
-				for(int i = 0; i < profitTableView.getItems().size(); i++) {
-					price = price.add(new BigDecimal(profitTableView.getItems().get(i).getProfit().getValue().toString()));
-				}
-				profitTextField.setText(price.toString());
-				autoPartsServiceImpl.populateProfit(profitTableView, allSoldAutoPats);
-			} else {
-				profitTextField.setText("0.00");
-				Alert alert = new Alert(AlertType.INFORMATION);
-				alert.setTitle("Information");
-				alert.setHeaderText("Nothing has been sold in this year.");
-				alert.setContentText("Choose another year.");
-
-				alert.showAndWait();
-			}*/
+		
 		} else {
 			Alert alert = new Alert(AlertType.INFORMATION);
 			alert.setTitle("Error");
@@ -1178,41 +676,7 @@ public class MainController {
 	@FXML private void showSalary() {
 		autoPartsServiceImpl.showSallary(main, autoPartsDaoImpl, salaryTableView, salaryDatePicker, 
 				totalProfitTextField, totalSalaryTextField, remainderTextField);
-		/*if(salaryDatePicker.getValue() != null) {
-			
-			//sallaryDatePicker.setValue(profitDatePicker.getValue());
-			
-			ObservableList<SoldAutoPart> autoSoldPartsList = 
-					autoPartsDaoImpl.getAllSoldAutoPartsByMonth(main.getConnection(), 
-							salaryDatePicker.getValue().getMonthValue());
-			
-			ObservableList<Salary> allSallaries = 
-					autoPartsDaoImpl.getAllSallaries(main.getConnection());
-			
-			if(autoSoldPartsList.size() > 0) {
-				autoPartsServiceImpl.populateSalaries(salaryTableView, autoSoldPartsList, 
-						allSallaries, totalProfitTextField, totalSalaryTextField,
-						remainderTextField);
-				
-			} else {
-				Alert alert = new Alert(AlertType.INFORMATION);
-				alert.setTitle("Information");
-				alert.setHeaderText("Nothing has been sold in this month.");
-				alert.setContentText("Choose another month.");
-
-				alert.showAndWait();
-			}
-			
-			
-			
-		} else {
-			Alert alert = new Alert(AlertType.INFORMATION);
-			alert.setTitle("Error");
-			alert.setHeaderText("You did not select a date.");
-			alert.setContentText("Select a date!");
-
-			alert.showAndWait();
-		}*/
+		
 	}
 	
 	public String getInterestSallary(BigDecimal workersSoldAutoParts, BigDecimal coefficient) {
@@ -1223,69 +687,7 @@ public class MainController {
 		
 		autoPartsServiceImpl.showWindowForEditSalary(main, autoPartsDaoImpl, salaryForEditTableView, language, 
 				editSalaryFXMLPath);
-		/*if(salaryForEditTableView.getSelectionModel().getSelectedItem() != null)
-		{
-			Parent root = null;
-			FXMLLoader loader = new FXMLLoader();
-		    loader.setLocation(MainController.class
-		    		.getResource(editSalaryFXMLPath));
-			try {
-				 root = (Parent)loader.load();
-			} catch (Exception e) {
-				 System.out.println("Error: " + e);
-			}
-			
-			Stage stage = new Stage();
-			stage.setTitle("Auto-parts Store Accounting");
-			stage.getIcons().add(new Image(new SignIn().getIconPath()));
-			stage.setScene(new Scene(root, stage.getWidth(), stage.getHeight()));
-			
-			WindowForEditSalaryController controller = loader.getController();
-			
-			controller.windowControllerLanguage(language);
-			
-			controller.setConnection(main.getConnection());
-			
-			controller.setStage(stage);
-			
-			controller.setSalaryID(
-					salaryForEditTableView.getSelectionModel()
-					   			   .getSelectedItem().getID()
-					   			   .getValue());
-			
-			controller.setInterestStableComboBox(
-					salaryForEditTableView.getSelectionModel()
-								   .getSelectedItem()
-								   .getInterestStable()
-								   .getValue());
-			
-			controller.setSalaryCoefficien(
-					salaryForEditTableView.getSelectionModel()
-		   			   			   .getSelectedItem()
-		   			   			   .getSallaryCoefficient()
-		   			   			   .getValue());
-			
-			controller.setSalary(
-					salaryForEditTableView.getSelectionModel()
-					   			   .getSelectedItem()
-					   			   .getSallary()
-					   			   .getValue());
-			
-			stage.show();
-			
-			stage.setOnHiding(eh -> {
-				salaryForEditTableView.getItems().clear();
-				autoPartsServiceImpl.populateSalariesForEdit(
-						salaryForEditTableView, main.getConnection());
-			});
-		} else {
-			Alert alert = new Alert(AlertType.INFORMATION);
-			alert.setTitle("Error");
-			alert.setHeaderText("You did not select a row.");
-			alert.setContentText("Select a row!");
-
-			alert.showAndWait();
-		}*/
+		
 	}
 	
 	
@@ -1326,11 +728,11 @@ public class MainController {
 		if(main.getLanguage().equals(Language.Ukrainian)) {
 			Alert alert = new Alert(AlertType.CONFIRMATION);
 			alert.setTitle("");
-			alert.setHeaderText("Вихід з акаунту");
-			alert.setContentText("Ви впевнені, що хочете вийти з акаунту?");
+			alert.setHeaderText("Г‚ГЁГµВіГ¤ Г§ Г ГЄГ ГіГ­ГІГі");
+			alert.setContentText("Г‚ГЁ ГўГЇГҐГўГ­ГҐГ­Ві, Г№Г® ГµГ®Г·ГҐГІГҐ ГўГЁГ©ГІГЁ Г§ Г ГЄГ ГіГ­ГІГі?");
 
-			ButtonType buttonTypeOK = new ButtonType("Гаразд");
-			ButtonType buttonTypeCancel = new ButtonType("Відміна");
+			ButtonType buttonTypeOK = new ButtonType("ГѓГ Г°Г Г§Г¤");
+			ButtonType buttonTypeCancel = new ButtonType("Г‚ВіГ¤Г¬ВіГ­Г ");
 			
 			alert.getButtonTypes().setAll(buttonTypeOK, buttonTypeCancel);
 			
@@ -1346,11 +748,11 @@ public class MainController {
 		if(main.getLanguage().equals(Language.Russian)) {
 			Alert alert = new Alert(AlertType.CONFIRMATION);
 			alert.setTitle("");
-			alert.setHeaderText("Выход з акаунта");
-			alert.setContentText("Вы уверенны, что хотите выйти з акаунта?");
+			alert.setHeaderText("Г‚Г»ГµГ®Г¤ Г§ Г ГЄГ ГіГ­ГІГ ");
+			alert.setContentText("Г‚Г» ГіГўГҐГ°ГҐГ­Г­Г», Г·ГІГ® ГµГ®ГІГЁГІГҐ ГўГ»Г©ГІГЁ Г§ Г ГЄГ ГіГ­ГІГ ?");
 
-			ButtonType buttonTypeOK = new ButtonType("Хорошо");
-			ButtonType buttonTypeCancel = new ButtonType("Отмена");
+			ButtonType buttonTypeOK = new ButtonType("Г•Г®Г°Г®ГёГ®");
+			ButtonType buttonTypeCancel = new ButtonType("ГЋГІГ¬ГҐГ­Г ");
 			
 			alert.getButtonTypes().setAll(buttonTypeOK, buttonTypeCancel);
 			
