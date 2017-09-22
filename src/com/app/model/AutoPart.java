@@ -13,21 +13,6 @@ public class AutoPart {
 	private IntegerProperty quantity;
 	private StringProperty  date;
 	
-	/*public AutoParts(int id, String name, String manufacturer,
-					String price, double priceIncreaseCoefficient, 
-					String description, int quantity, 
-					String date) {
-		
-		this.id = new SimpleIntegerProperty(id);
-		this.name = new SimpleStringProperty(name);
-		this.manufacturer = new SimpleStringProperty(manufacturer);
-		this.price = new SimpleStringProperty(price);
-		this.priceIncreaseCoefficient = new SimpleDoubleProperty(priceIncreaseCoefficient);
-		this.description = new SimpleStringProperty(description);
-		this.quantity = new SimpleIntegerProperty(quantity);
-		this.date = new SimpleStringProperty(date);
-	}*/
-	
 	public void setID(int id){
 		this.id = new SimpleIntegerProperty(id);
 	}
